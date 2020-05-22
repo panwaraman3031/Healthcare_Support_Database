@@ -59,11 +59,11 @@ select PatientID from Patient where PatFirstName="Macey" and PatLastName="Olson"
 
 Output:
 
-*#PatientID
+*#PatientID*
 
-45*
+45
 
-**Objective: Health records can be accessed easily by all its users. **
+**Objective: Health records can be accessed easily by all its users.**
 
 Sub-objective: Search the disease and corresponding Medical StaffID and their contact information using PatientID
 
@@ -84,10 +84,10 @@ where PatientID =70 ;
 
 Output:
 
-*# FirstName , LastName , EmailAddress,                            PhoneNumber,    JobPosition, DiseaseTreated
+*# FirstName , LastName , EmailAddress,                            PhoneNumber,    JobPosition, DiseaseTreated*
 
    Mannix	   Miles	  accumsan.convallis@Maurisblanditenim.ca  1-237-475-0544     Doctor    Lower respiratory infections
-*
+
 
 
 **Objective: Hospital management system can be improved by leveraging the information from existing health care records.**
@@ -112,7 +112,7 @@ where HealthInfo.MedicalStaffID=MedicalStaff.MedicalStaffID and JobPosition="Nur
 
 Output:
 
-*#Avg_Appt_Doctor    Avg_Appt_Nurse
+*#Avg_Appt_Doctor    Avg_Appt_Nurse*
 
   3.3061             2.7059*
 
@@ -130,7 +130,7 @@ and PatAge <=13)a ;
 
 Output:
 
-#PercentOfPeopLessThan
+*#PercentOfPeopLessThan*
 
 12
 
@@ -139,9 +139,12 @@ Output:
 Sub-ojective: Generate list of highly prescribed medicines
 
 Query 5: 
-select MedicineName, count(HealthInfoMed.MedicineID) as PrescriptionFrequency from 
+*select MedicineName, count(HealthInfoMed.MedicineID) as PrescriptionFrequency from *
+
 Medicine,HealthInfoMed where HealthInfoMed.MedicineID=Medicine.MedicineID
+
 group by MedicineName order by (count(HealthInfoMed.MedicineID) ) desc
+
 LIMIT 5;
 
 Output:
@@ -160,7 +163,7 @@ group by DiseaseName order by(count(HealthInfo.HealthInfoID) )desc;
 
 Output:
 
-*#DiseaseName, Frequency
+*#DiseaseName, Frequency*
 
 'diarrheal diseases', '37'
 
@@ -189,12 +192,12 @@ group by AffectedOrgan order by(count(HealthInfoID) )desc;
 LIMIT 3
 
 Output:
-*#AffectedOrgan Frequency
+*#AffectedOrgan Frequency*
 
    Heart          18
    
    Lung           11
    
    GI             8
-*
+
   

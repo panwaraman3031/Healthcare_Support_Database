@@ -26,13 +26,6 @@ Based on client's requirements, an ER diagram was created which is as follows:
 ![](Healthcare_Support_ER.png)
 
 
-
-
-
-![png](output_3_0.png)
-
-
-
 More details on client's requirements:
 
 •	Patient can have only one access level and one access level can be assigned to multiple patients.

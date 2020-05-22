@@ -22,11 +22,9 @@ After analyzing client's needs, the database designer summarized the following p
 Based on client's requirements, an ER diagram was created which is as follows:
 
 
-```python
-from IPython.display import Image
-Image("Healthcare_Support_ER.png")
-#![](Healthcare_Support_ER.png)
-```
+
+![](Healthcare_Support_ER.png)
+
 
 
 

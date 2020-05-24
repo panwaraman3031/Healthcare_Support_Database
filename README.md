@@ -49,7 +49,7 @@ More details on client's requirements:
 
 To achieve the goals stated in mission statement, the client wants some specific objectives to be fulfilled. One or two queries are written to achieve each objective.
 
-**Objective: Health records can be accessed easily by all its users.**
+**Objective 1: Health records can be accessed easily by all its users.**
 
 Sub-objective: Search PatientID using first and last name
 
@@ -63,7 +63,7 @@ Output:
 
 45
 
-**Objective: Health records can be accessed easily by all its users.**
+**Objective 1 : Health records can be accessed easily by all its users.**
 
 Sub-objective: Search the disease and corresponding Medical StaffID and their contact information using PatientID
 
@@ -90,7 +90,7 @@ Output:
 
 
 
-**Objective: Hospital management system can be improved by leveraging the information from existing health care records.**
+**Objective 2: Hospital management system can be improved by leveraging the information from existing health care records.**
 
 Sub-objective: Average appointments attended by doctors and nurses
 
@@ -116,7 +116,7 @@ Output:
 
   3.3061             2.7059*
 
-**Objective: Hospital management system can be improved by leveraging the information from existing health care records.**
+**Objective 2: Hospital management system can be improved by leveraging the information from existing health care records.**
 
 Sub-objective: Percentage of patients who are younger than a certain age
 
@@ -134,7 +134,7 @@ Output:
 
 12
 
-**Objective: Pharmacy stores linked to hospital can keep their inventories up to date using the current database records.**
+**Objective 3: Pharmacy stores linked to hospital can keep their inventories up to date using the current database records.**
 
 Sub-ojective: Generate list of highly prescribed medicines
 
@@ -149,7 +149,7 @@ LIMIT 5;
 
 Output:
 
-**Objective: Healthcare records can be used to contribute to national research database to improve the long-term health of patients**
+**Objective 4: Healthcare records can be used to contribute to national research database to improve the long-term health of patients**
 
 Sub-objective: Major diseases reported in hospital
 
@@ -175,7 +175,7 @@ Output:
 
 'lung cancers', '30'*
 
-**Objective: Healthcare records can be used to contribute to national research database to improve the long-term health of patients**
+**Objective 4: Healthcare records can be used to contribute to national research database to improve the long-term health of patients**
 
 Sub-objective: Number of cases reported for patients above certain age
 
